@@ -1,0 +1,11 @@
+#Google AddSense
+User-agent: Mediapartners-Google
+Disallow:
+
+#Global
+User-agent: *
+Disallow: /php/
+Disallow: /vendor/
+Disallow: /js/
+
+Sitemap: http://www.transportesgruapons.com/sitemap.xml
