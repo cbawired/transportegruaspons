@@ -36,9 +36,12 @@
             display: none;
         }
         section{
-            padding-top:5%;
+            padding-top:2%;
             padding-bottom:5%;
-            margin-top:5%;
+           
+        }
+        h1{
+            margin-bottom: 50px;
         }
     </style>
 </head>
@@ -57,42 +60,41 @@
     
     <!--Introduccion-->
     <section  id="introduccion" class="block" >
+        <!--intro dispo moviles-->
         <div class="hide-on-med-and-up" style="padding-top: 3%">
-            <div class="slider">
+            <div class="slider fullscreen">
                 <ul class="slides">
                     <li>
                     <img src="img/galeria/25032019/1.jpeg" class="responsive-img" alt="MB1215 cargado">
-                    <div class="caption center-align white" style="border-radius: 15px;">
-                            <img src="img/logo/logo.png" alt="" style="width: 75%; margin: 15px;">
+                    <div class="caption center-align black-text white" style="border-radius: 15px; width: 210px; left: 45%">
+                        <img src="img/logo/logo.png" alt="" style="width: 150px; margin: 30px;">
                     </div>
                     </li>
                     <li>
-                    <img src="img/galeria/25032019/29.jpeg" class="responsive.img" alt="MB1215">
+                    <img src="img/galeria/25032019/29.jpeg" class="responsive-img" alt="MB1215 haciendo trabajos en altura">
                     <div class="caption left-align black-text">
-                        <h3>Grua hidraulica</h3>
-                        <h5 class="light text-lighten-3">Podemos hacer todo tipo de trabajos en altura</h5>
+                        <h1 class="red-text"style="text-shadow: 2px 2px white"><strong>Grua Hidraulica</strong></h1>
                     </div>
                     </li>
                     <li>
                     <img src="img/galeria/25032019/16.jpeg" class="responsive-img" alt="MB1215 y MB1114 cargados en Feria del Libro de Cordoba">
-                    <div class="caption right-align black-text">
-                        <h3>Movimientos en todos los rubros</h3>
-                        <h5 class="light text-lighten-3">Nos encargamos de los movimientos que necesites.</h5>
+                    <div class="caption left-align red-text">
+                        <h1 class="red-text"style="text-shadow: 2px 2px white"><strong>10.000 Kg</strong></h1>
                     </div>
                     </li>
                     <li>
                     <img src="img/galeria/25032019/13.jpeg" class="responsive-img" alt="MB1114 cargado">
-                    <div class="caption right-align black-text">
-                        <h3>Cargamos lo que sea</h3>
-                        <h5 class="light text-lighten-3"></h5>
+                    <div class="caption right-align indigo-text">
+                        <h1 class="red-text" style="text-shadow: 2px 2px white"><strong>Cualquier Rubro</strong></h1>
                     </div>
                     </li>
                 </ul>
             </div>
         </div>
+        <!--intro pc-->
         <div class="hide-on-small-only block" style="padding-top: 3%">
             <div class="slider fullscreen">
-            <ul class="slides">
+                <ul class="slides">
                     <li>
                     <img src="img/galeria/25032019/1.jpeg" class="responsive-img" alt="MB1215 cargado">
                     <div class="caption center-align black-text white" style="border-radius: 15px; width: 210px; left: 45%">

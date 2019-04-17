@@ -1,5 +1,5 @@
 $(window).scroll(function(){
-    if($(document).scrollTop()>100){
+    if($(document).scrollTop()>50){
         $('#introduccion').hide('slow');
         $('#navegador').show('slow')
     }else{
