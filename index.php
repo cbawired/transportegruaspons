@@ -38,7 +38,6 @@
         section{
             padding-top:2%;
             padding-bottom:5%;
-           
         }
         h1{
             margin-bottom: 50px;
@@ -66,8 +65,8 @@
                 <ul class="slides">
                     <li>
                     <img src="img/galeria/25032019/1.jpeg" class="responsive-img" alt="MB1215 cargado">
-                    <div class="caption center-align black-text white" style="border-radius: 15px; width: 210px; left: 45%">
-                        <img src="img/logo/logo.png" alt="" style="width: 150px; margin: 30px;">
+                    <div class="caption left-align black-text white" style="border-radius: 5px; width: 50%; margin-left: 10%">
+                        <img src="img/logo/logo.png" alt="" style="">
                     </div>
                     </li>
                     <li>
@@ -104,19 +103,19 @@
                     <li>
                     <img src="img/galeria/25032019/29.jpeg" class="responsive-img" alt="MB1215 haciendo trabajos en altura">
                     <div class="caption left-align black-text">
-                        <h1 class="red-text"style="text-shadow: 2px 2px white"><strong>Grua Hidraulica</strong></h1>
+                        <h1 class="blue-text"style="text-shadow: 2px 2px white"><strong>GRUA HIDRAULICA</strong></h1>
                     </div>
                     </li>
                     <li>
                     <img src="img/galeria/25032019/16.jpeg" class="responsive-img" alt="MB1215 y MB1114 cargados en Feria del Libro de Cordoba">
                     <div class="caption left-align red-text">
-                        <h1 class="red-text"style="text-shadow: 2px 2px white"><strong>10.000 Kg</strong></h1>
+                        <h1 class="blue-text"style="text-shadow: 2px 2px white"><strong>10.000 KG</strong></h1>
                     </div>
                     </li>
                     <li>
                     <img src="img/galeria/25032019/13.jpeg" class="responsive-img" alt="MB1114 cargado">
-                    <div class="caption right-align indigo-text">
-                        <h1 class="red-text" style="text-shadow: 2px 2px white"><strong>Cualquier Rubro</strong></h1>
+                    <div class="caption left-align indigo-text">
+                        <h1 class="blue-text" style="text-shadow: 2px 2px white"><strong>MOVIMIENTOS EN TODOS LOS RUBRO</strong></h1>
                     </div>
                     </li>
                 </ul>
@@ -127,16 +126,16 @@
   
             <div id="navegador" class="" style="">
                 <div class="navbar-fixed" style="" >
-                    <nav style="background-color: black; height: 100px;">
-                        <div class="nav-wrapper ">
-                            <a class="brand-logo left" style="border-radius: 15px; height: 100%; width: 60px; margin-left: 20px; margin-top: 10px;" href=""><img src="img/logo/logo-white.png" style="width: 100%; " alt=""></a>
-                            <ul class="right hide-on-med-and-down valign-wrapper">
-                                <li class=""style="" ><a href="#" style="height: 100px;"><i class="material-icons left medium">dashboard</i>Home</a></li>
-                                <li><a href="#servicios" style="height: 100px;"><i class="material-icons left medium">navigation</i>Servicios</a></li>
-                                <li><a href="#clientes" style="height: 100px;"><i class="material-icons left medium">people_outline</i>Clientes</a></li>
-                                <li><a href="#trabajos" style="height: 100px;"><i class="material-icons left medium">gavel</i>Trabajos</a></li>
-                                <li><a href="#flota" style="height: 100px;"><i class="material-icons left medium">airport_shuttle</i>Flota</a></li>
-                                <li><a href="#contacto" style="height: 100px;"><i class="material-icons left medium">person</i>Contacto</a></li>
+                    <nav style="background-color: grey; height: 100px;">
+                        <div class="nav-wrapper">
+                            <a class="brand-logo left" style="border-radius: 15px; height: 100%; width: 60px; margin-left: 20px; margin-top: 10px;" href="#"><img src="img/logo/logo-white.png" style="width: 100%; " alt=""></a>
+                            <ul class="right hide-on-med-and-down" style="">
+                                <li><a class="valign-wrapper" href="#"             style="height: 100px;"><i class="material-icons left medium">dashboard</i>Home</a></li>
+                                <li><a class="valign-wrapper" href="#servicios"    style="height: 100px;"><i class="material-icons left medium">navigation</i>Servicios</a></li>
+                                <li><a class="valign-wrapper" href="#clientes"     style="height: 100px;"><i class="material-icons left medium">people_outline</i>Clientes</a></li>
+                                <li><a class="valign-wrapper" href="#trabajos"     style="height: 100px;"><i class="material-icons left medium">gavel</i>Trabajos</a></li>
+                                <li><a class="valign-wrapper" href="#flota"        style="height: 100px;"><i class="material-icons left medium">airport_shuttle</i>Flota</a></li>
+                                <li><a class="valign-wrapper" href="#contacto"     style="height: 100px;"><i class="material-icons left medium">person</i>Contacto</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -145,7 +144,7 @@
         
         
     <!--Servicio-->
-    <section  id="servicios" style="margin-top: 45%">
+    <section  id="servicios" style="margin-top: 20%">
         <div class="container" style="padding-top: 3%">
             <div class="row">
                 <div class="col s12">
@@ -244,16 +243,8 @@
         </div>
     </div>
     <!--Clientes-->
-    <section id="clientes" >
-        <div style="padding-top: 3%">
-            <div class="container">
-                <div class="row">
-                    <div class="col s12">
-                        <h1 class="center-align">Nuestros Clientes</h1>
-                        <h2 hidden="hidden">Las empresas que confian en nosotros</h2>
-                    </div>
-                </div>
-            </div>
+    <section class="container" id="clientes" >
+        
             <div class="row">
                 <div class="col s12">
                     <!--Carousel de clientes-->
@@ -272,15 +263,14 @@
                         <a class="carousel-item" href="#five!"><img  class="responsive-img" src="img/logo/clientes/macro-1j1bdiqeictg.png" style="border-radius: 10px;"></a>
                     </div>
                 </div>
+                <h2 class="center-align">Nuestros Clientes</h2>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col s12">
-                        <p>
-                            PRODISMO SRL | SKY ONE | 3DI | PRACTICA SA | FUNDICION ARIENTE | METALURGICA ASSUSA | CONSTRUCTORA SRL | ESTUDIO CONTABLE UBIOS Y ASOC. | GRUPOS ARPECO | AMIAN GRAF SRL | FUSIONAR | DIMABES SRL | STURAM SA | PEÑON DEL AGUILA CERVECERIA | CARTELERIA JUAN | MENSA CAD | CAM VAR | CYRUS | BANCO MACRO 
-                        </p>
-                            
-                    </div>
+            <div class="row">
+                <div class="col s12">
+                    <p>
+                        PRODISMO SRL | SKY ONE | 3DI | PRACTICA SA | FUNDICION ARIENTE | METALURGICA ASSUSA | CONSTRUCTORA SRL | ESTUDIO CONTABLE UBIOS Y ASOC. | GRUPOS ARPECO | AMIAN GRAF SRL | FUSIONAR | DIMABES SRL | STURAM SA | PEÑON DEL AGUILA CERVECERIA | CARTELERIA JUAN | MENSA CAD | CAM VAR | CYRUS | BANCO MACRO 
+                    </p>
+                        
                 </div>
             </div>
         </div>
@@ -419,24 +409,24 @@
                 <div class="col s12">
                     <div class="row">
                             <h1 class="center-align">Contacto</h1>
-                            <h2 hidden="hidden">Estos son los medios en los que estamos presentes</h2>
-                            <h5 class="left-align" style="margin-bottom: 30px;">Seguinos por las siguientes redes:</h5>
-                            <div class="btn-large col s3">
+                            <h2 class="hide">Redes Sociales</h2>
+                            <h5 class="left-align hide-on-med-and-down" style="margin-bottom: 30px;">Seguinos por las siguientes redes:</h5>
+                            <div class="btn-large blue col s3">
                                 <a  class="" href="https://www.facebook.com/transporteponscba">
                                     <img src="img/iconos/1/facebook.png" alt=""  style="height: 100%; padding: 1%; ">
                                 </a>
                             </div>
-                            <div class="btn-large col s3">
+                            <div class="btn-large blue col s3">
                                 <a class=""  href="https://www.instagram.com/transportepons_grua/">
                                     <img src="img/iconos/1/instagram.png" alt=""  style="height: 100%; padding: 1%; ">
                                 </a>
                             </div>
-                            <div class="btn-large col s3">
+                            <div class="btn-large blue col s3">
                                 <a class=""  href="https://wa.me/5493513205757">
                                     <img src="img/iconos/1/whatsapp.png" alt=""  style="height: 100%; padding: 1%; ">
                                 </a>
                             </div>
-                            <div class="btn-large col s3 valign-wrapper">
+                            <div class="btn-large blue col s3 valign-wrapper">
                                 <a class="" href="mailto:transporteponscba@gmail.com">
                                     <img src="img/iconos/1/googlePlus.png" alt="" style="height: 100%; padding: 1%; ">
                                 </a>
@@ -475,7 +465,7 @@
                         </div>
                         <div class="col s12">
                             <div class="input-field">
-                                <button class="btn right" id="cargar">Enviar</button>
+                                <button class="btn blue right" id="cargar">Enviar</button>
                             </div>
                             <div id="resultado"></div>                     
                         </div>
@@ -492,7 +482,7 @@
     </section>
     
 
-    <footer class="page-footer black" >
+    <footer class="page-footer grey" >
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
@@ -504,10 +494,10 @@
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">Links</h5>
               <ul>
-                <li class="valign-wrapper"><a href="https://wa.me/5493513205757">Whatsapp: 3513205757</a> </li>
-                <li class="valign-wrapper"><a href="mailto">transporteponscba@gmail.com</a></li>
-                <li class="valign-wrapper"><a href="https://www.facebook.com/transporteponscba/">facebook</a></li>
-                <li class="valign-wrapper"><a href="https://www.instagram.com/transportepons_grua/"><span>instagram</span></a></li>
+                  <li class="valign-wrapper"><a class="white-text" href="https://www.facebook.com/transporteponscba/">Facebook</a></li>
+                  <li class="valign-wrapper"><a class="white-text" href="https://www.instagram.com/transportepons_grua/"><span>Instagram</span></a></li>
+                  <li class="valign-wrapper"><a class="white-text" href="https://wa.me/5493513205757">Whatsapp: 3513205757</a> </li>
+                  <li class="valign-wrapper"><a class="white-text" href="mailto">transporteponscba@gmail.com</a></li>
             </ul>
             </div>
           </div>
